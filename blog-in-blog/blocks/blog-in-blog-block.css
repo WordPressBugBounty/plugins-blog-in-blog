@@ -1,0 +1,40 @@
+/**
+ * Blog in Blog - Gutenberg Block Editor Styles
+ */
+
+/* Block placeholder when no content selected */
+.bib-block-placeholder {
+    background: #f0f0f0;
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 40px 20px;
+    text-align: center;
+    color: #666;
+}
+
+.bib-block-placeholder .dashicons {
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.bib-block-placeholder p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}
+
+.bib-block-placeholder .bib-block-help {
+    font-size: 12px;
+    color: #888;
+    max-width: 300px;
+    margin: 10px auto 0;
+}
+
+/* Block wrapper in editor */
+.wp-block-blog-in-blog-posts {
+    margin: 20px 0;
+}
+
+/* Ensure the preview is visible */
+.wp-block-blog-in-blog-posts .components-server-side-render {
+    pointer-events: none;
+}
